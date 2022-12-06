@@ -11,3 +11,22 @@ bevy = "0.9.1"
 serde = "1.0.149"
 serde_json = "1.0.89"
 wasm-bindgen = { version = "0.2.83", features = ["serde", "serde-serialize"] }
+
+[dependencies.web-sys]
+version = "0.3.4"
+features = [
+  'CanvasRenderingContext2d',
+  'CssStyleDeclaration',
+  'Document',
+  'Element',
+  'EventTarget',
+	'File',
+	'FileList',
+  'HtmlLabelElement',
+  'HtmlInputElement',
+  'HtmlElement',
+  'MouseEvent',
+  'Node',
+  'Window',
+  'console',
+]
